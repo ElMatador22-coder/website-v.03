@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — SalesOgre AI</title>
+<style>
+  body{font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:#1B2740;line-height:1.6;max-width:760px;margin:0 auto;padding:48px 24px 80px}
+  h1{font-size:30px;letter-spacing:-.02em;margin:0 0 6px;color:#16233F}
+  .updated{color:#5A6B85;font-size:14px;margin:0 0 28px}
+  h2{font-size:18px;color:#16233F;margin:32px 0 8px}
+  p,li{font-size:15px;color:#34435E}
+  a{color:#0E7C66}
+  .box{background:#F1F8F5;border:1px solid #BEE6D6;border-radius:12px;padding:16px 20px;margin:20px 0}
+  strong{color:#16233F}
+</style>
+</head>
+<body>
+  <h1>Privacy Policy</h1>
+  <p class="updated">SalesOgre AI — Deal Coach (Chrome extension). Last updated: <span id="d"></span></p>
+
+  <div class="box">
+    <strong>The short version:</strong> Your deal notes never leave your browser. We do not collect, store, sell, or share your data. The only network request the extension makes is to validate a paid license key with our payment provider.
+  </div>
+
+  <h2>1. What we collect</h2>
+  <p>Nothing about your sales activity. All deal notes, contacts, accounts, and settings you enter are stored <strong>locally in your browser</strong> using Chrome's storage API. This information stays on your device. We have no server that receives, stores, or can read it.</p>
+
+  <h2>2. The one network request we make</h2>
+  <p>If you activate a paid license, the extension sends your <strong>license key</strong> (and nothing else) to our payment provider, Lemon Squeezy (<a href="https://www.lemonsqueezy.com/privacy" target="_blank" rel="noopener">their privacy policy</a>), to confirm the key is valid. No deal data, notes, names, or personal information are included in that request.</p>
+
+  <h2>3. What we do NOT do</h2>
+  <ul>
+    <li>We do not collect personally identifiable information.</li>
+    <li>We do not sell or transfer your data to third parties.</li>
+    <li>We do not use your data for advertising, credit, or any purpose unrelated to coaching your deals.</li>
+    <li>We do not track your browsing history or the content of other websites.</li>
+  </ul>
+
+  <h2>4. Permissions and why we need them</h2>
+  <ul>
+    <li><strong>Side panel</strong> — to show the SalesOgre interface next to your work.</li>
+    <li><strong>Storage</strong> — to save your coaching context locally so it persists between sessions.</li>
+    <li><strong>Access to api.lemonsqueezy.com</strong> — solely to validate a paid license key.</li>
+  </ul>
+
+  <h2>5. Your control</h2>
+  <p>Because everything is stored locally, you can remove all of your data at any time by clearing the extension's storage or uninstalling it. There is nothing for us to delete on our end, because we never had it.</p>
+
+  <h2>6. Contact</h2>
+  <p>Questions about this policy? Email <a href="mailto:privacy@salesogre.com">privacy@salesogre.com</a>.</p>
+
+  <script>document.getElementById("d").textContent=new Date().toLocaleDateString("en-US",{year:"numeric",month:"long",day:"numeric"});</script>
+</body>
+</html>
