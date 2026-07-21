@@ -9,7 +9,6 @@ Product tiers: Starter ($15/mo, full agentic AI prospecting) → Pro ($49/mo, ad
 
 ## Pages
 - [Home](https://www.salesogre.com/): platform overview, evidence base, the record→insight→action ladder
-- [SalesOgre in Chrome](https://www.salesogre.com/chrome.html): the full platform in the browser — local screen reading, non-agentic by design, the case against agentic AI for 99% of salespeople
 - [Platform](https://www.salesogre.com/platform.html): Capture → Read → Coach → Act loop, MEDDPICC qualification, prioritization, add-on modules
 - [Marketplace](https://www.salesogre.com/marketplace.html): 30 prebuilt AI workflow apps, $4.99–$24.99/month
 - [Pricing](https://www.salesogre.com/pricing.html): Starter $15/mo, Pro $49/mo, Scale $99/mo
