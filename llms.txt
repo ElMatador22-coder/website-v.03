@@ -5,13 +5,12 @@ SalesOgre AI is a sales automation platform for mid-market and enterprise B2B te
 
 Key positioning: "The CRM is dead. It has never helped you close a deal, build pipeline, or sell — it is just another place data sits. Systems of record remember. SalesOgre acts."
 
-Product ladder: SalesOgre Coach (free deal coaching) → SalesOgre in Chrome (the full platform as a browser extension that reads Salesforce, Gmail, Zoom and ServiceNow screens locally — deliberately non-agentic: it drafts and stages all work for human approval, covering ~90% of a seller's needs with zero autonomy risk) → Enterprise Platform (direct API integrations, with autonomy available only behind approval gates).
+Product tiers: Starter ($15/mo, full agentic AI prospecting) → Pro ($49/mo, adds screen reading and cheaper AI usage) → Scale ($99/mo, adds enterprise CRM integrations, account research, and team reporting).
 
 ## Pages
 - [Home](https://www.salesogre.com/): platform overview, evidence base, the record→insight→action ladder
 - [SalesOgre in Chrome](https://www.salesogre.com/chrome.html): the full platform in the browser — local screen reading, non-agentic by design, the case against agentic AI for 99% of salespeople
 - [Platform](https://www.salesogre.com/platform.html): Capture → Read → Coach → Act loop, MEDDPICC qualification, prioritization, add-on modules
-- [Coach](https://www.salesogre.com/coach.html): free browser-based deal coaching, the on-ramp to the platform
 - [Marketplace](https://www.salesogre.com/marketplace.html): 30 prebuilt AI workflow apps, $4.99–$24.99/month
-- [Pricing](https://www.salesogre.com/pricing.html): Coach free; Platform per seat; Enterprise scoped
+- [Pricing](https://www.salesogre.com/pricing.html): Starter $15/mo, Pro $49/mo, Scale $99/mo
 - [About](https://www.salesogre.com/about.html): built by salespeople for salespeople, from the trenches
