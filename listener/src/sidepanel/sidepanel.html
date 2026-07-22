@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>SalesOgre Live Listener</title>
+  <link rel="stylesheet" href="sidepanel.css">
+</head>
+<body>
+  <header class="bar">
+    <div class="brand">SalesOgre <span>Live</span></div>
+    <div class="status" id="status" data-state="idle">
+      <span class="dot"></span><span class="status-text" id="statusText">Idle</span>
+    </div>
+  </header>
+
+  <section class="controls">
+    <label class="field">
+      <span>Deal</span>
+      <input id="dealId" type="text" placeholder="deal id (optional)" autocomplete="off">
+    </label>
+    <button id="toggleBtn" class="btn">Start listening</button>
+    <div class="channels" id="channels"></div>
+    <p class="hint" id="hint"></p>
+  </section>
+
+  <section class="pane">
+    <h2>Coaching <span class="tempo">live</span></h2>
+    <div id="coaching" class="coaching">
+      <p class="empty">Next-best-action, persona reads, and MEDDPICC capture will appear here as the call unfolds.</p>
+    </div>
+  </section>
+
+  <section class="pane grow">
+    <h2>Transcript</h2>
+    <div id="transcript" class="transcript" aria-live="polite"></div>
+  </section>
+
+  <script type="module" src="sidepanel.js"></script>
+</body>
+</html>

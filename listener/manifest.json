@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "SalesOgre Live Listener",
+  "version": "0.1.0",
+  "description": "Real-time sales-call listener. Captures call audio, transcribes it, and feeds it into the SalesOgre engine as a note object for live persona reads, MEDDPICC capture, and next-best-action coaching.",
+  "minimum_chrome_version": "116",
+  "permissions": [
+    "tabCapture",
+    "offscreen",
+    "sidePanel",
+    "storage",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "https://*/*"
+  ],
+  "background": {
+    "service_worker": "src/background/service-worker.js",
+    "type": "module"
+  },
+  "side_panel": {
+    "default_path": "src/sidepanel/sidepanel.html"
+  },
+  "action": {
+    "default_title": "SalesOgre Live Listener"
+  }
+}

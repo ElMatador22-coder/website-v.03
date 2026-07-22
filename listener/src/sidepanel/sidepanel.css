@@ -1,0 +1,62 @@
+/* sidepanel.css — matches the SalesOgre marketing palette (navy / teal). */
+:root{
+  --navy:#0A1628;--navy2:#16233F;--panel:#0E1B31;--line:#22314F;--teal:#00C4A0;--green:#34B95A;
+  --paper:#E9EEF6;--muted:#8FA3BF;--dim:#5F7396;--red:#E2574C;--amber:#E8B93E;--blue:#4A86E8;
+  --mono:ui-monospace,'SF Mono','Cascadia Mono',Menlo,Consolas,monospace;
+  --sans:-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{height:100%}
+body{background:var(--navy);color:var(--paper);font-family:var(--sans);font-size:14px;line-height:1.5;display:flex;flex-direction:column}
+h2{font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;color:var(--dim);font-family:var(--mono);margin-bottom:10px;display:flex;align-items:center;gap:8px}
+.tempo{color:var(--teal);border:1px solid var(--line);border-radius:6px;padding:1px 6px;font-size:.62rem}
+
+.bar{display:flex;align-items:center;justify-content:space-between;padding:12px 16px;border-bottom:1px solid var(--line);background:rgba(10,22,40,.9)}
+.brand{font-weight:800;letter-spacing:-.01em}
+.brand span{color:var(--teal)}
+.status{display:flex;align-items:center;gap:7px;font-family:var(--mono);font-size:.72rem;text-transform:uppercase;letter-spacing:.1em;color:var(--muted)}
+.status .dot{width:9px;height:9px;border-radius:50%;background:var(--dim);box-shadow:0 0 0 0 rgba(0,196,160,.5)}
+.status[data-state="listening"] .dot{background:var(--teal);animation:pulse 1.6s infinite}
+.status[data-state="starting"] .dot,.status[data-state="stopping"] .dot{background:var(--amber)}
+.status[data-state="error"] .dot{background:var(--red)}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(0,196,160,.5)}70%{box-shadow:0 0 0 7px rgba(0,196,160,0)}100%{box-shadow:0 0 0 0 rgba(0,196,160,0)}}
+
+.controls{padding:14px 16px;border-bottom:1px solid var(--line);display:flex;flex-direction:column;gap:10px}
+.field{display:flex;flex-direction:column;gap:4px}
+.field span{font-family:var(--mono);font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;color:var(--dim)}
+.field input{background:var(--panel);border:1px solid var(--line);border-radius:8px;color:var(--paper);padding:9px 11px;font-size:.86rem;font-family:var(--mono)}
+.field input:focus{outline:2px solid var(--teal);outline-offset:1px}
+.btn{background:var(--teal);color:#06251E;font-weight:700;border:none;border-radius:9px;padding:11px 14px;font-size:.9rem;cursor:pointer}
+.btn:hover{background:#12D8B4}
+.btn[data-on="true"]{background:var(--red);color:#fff}
+.channels{display:flex;gap:6px;flex-wrap:wrap;min-height:18px}
+.chip{font-family:var(--mono);font-size:.62rem;letter-spacing:.08em;text-transform:uppercase;border:1px solid var(--line);border-radius:6px;padding:2px 7px;color:var(--muted)}
+.chip.them{border-color:var(--blue);color:var(--blue)}
+.chip.us{border-color:var(--teal);color:var(--teal)}
+.hint{font-size:.74rem;color:var(--amber);min-height:14px}
+.hint:empty{display:none}
+
+.pane{padding:14px 16px;border-bottom:1px solid var(--line)}
+.pane.grow{flex:1;min-height:0;display:flex;flex-direction:column}
+
+.coaching .empty,.transcript .empty{color:var(--dim);font-size:.82rem}
+.nba{border-left:2px solid var(--teal);padding:8px 0 8px 12px;margin-bottom:12px}
+.nba .k{font-family:var(--mono);font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;color:var(--teal);display:block;margin-bottom:3px}
+.nba p{font-size:.9rem}
+.reads{display:flex;flex-direction:column;gap:8px;margin-bottom:12px}
+.read{border-left:3px solid var(--line);padding:6px 0 6px 10px}
+.read.nervous{border-color:var(--amber)}.read.blocker{border-color:var(--red)}
+.read.champion{border-color:var(--green)}.read.supporter{border-color:var(--blue)}
+.read .who{font-family:var(--mono);font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.read .name{font-weight:700;font-size:.86rem}
+.meddpicc{display:grid;grid-template-columns:auto 1fr;gap:4px 10px;font-size:.8rem}
+.meddpicc .lbl{font-family:var(--mono);font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;color:var(--dim)}
+.dry{font-size:.72rem;color:var(--dim);font-family:var(--mono);border:1px dashed var(--line);border-radius:6px;padding:6px 8px}
+
+.transcript{overflow-y:auto;flex:1;min-height:0;display:flex;flex-direction:column;gap:7px;padding-right:4px}
+.line{font-size:.85rem;padding:6px 9px;border-radius:8px;background:var(--panel);border:1px solid var(--line)}
+.line.them{border-left:3px solid var(--blue)}
+.line.us{border-left:3px solid var(--teal)}
+.line.partial{opacity:.55;font-style:italic}
+.line .who{font-family:var(--mono);font-size:.58rem;letter-spacing:.12em;text-transform:uppercase;color:var(--dim);display:block;margin-bottom:2px}
+.line.them .who{color:var(--blue)}.line.us .who{color:var(--teal)}
