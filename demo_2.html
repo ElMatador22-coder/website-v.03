@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Request a Demo | SalesOgre AI</title>
+<meta name="description" content="See SalesOgre AI read a live call, score the room, and hand your reps the next move. 20 minutes, no slides.">
+<link rel="canonical" href="https://www.salesogre.com/demo.html">
+<meta property="og:type" content="website"><meta property="og:site_name" content="SalesOgre AI">
+<meta property="og:title" content="Request a Demo | SalesOgre AI"><meta property="og:description" content="See SalesOgre AI read a live call, score the room, and hand your reps the next move. 20 minutes, no slides.">
+<meta property="og:url" content="https://www.salesogre.com/demo.html">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Request a Demo | SalesOgre AI">
+<meta name="twitter:description" content="See SalesOgre AI read a live call, score the room, and hand your reps the next move.">
+<meta name="robots" content="index,follow">
+
+<style>
+:root{--navy:#0A1628;--navy2:#16233F;--panel:#0E1B31;--line:#22314F;--teal:#00C4A0;--green:#34B95A;
+--paper:#E9EEF6;--muted:#8FA3BF;--dim:#5F7396;--red:#E2574C;--amber:#E8B93E;--blue:#4A86E8;
+--mono:ui-monospace,'SF Mono','Cascadia Mono',Menlo,Consolas,monospace;
+--sans:-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--navy);color:var(--paper);font-family:var(--sans);font-size:17px;line-height:1.65;-webkit-font-smoothing:antialiased}
+a{color:var(--teal);text-decoration:none}
+img,svg{max-width:100%}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:var(--teal);display:block;margin-bottom:14px}
+h1{font-size:clamp(2.4rem,6vw,4.4rem);line-height:1.04;letter-spacing:-.03em;font-weight:800}
+h2{font-size:clamp(1.7rem,3.6vw,2.6rem);line-height:1.1;letter-spacing:-.02em;font-weight:800;margin-bottom:16px}
+h3{font-size:1.15rem;font-weight:700;letter-spacing:-.01em;margin-bottom:8px}
+p.lead{font-size:clamp(1.05rem,1.6vw,1.3rem);color:var(--muted);max-width:56ch}
+section{padding:88px 0;border-bottom:1px solid var(--line)}
+.grid{display:grid;gap:20px}
+.g2{grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}
+.g3{grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:26px}
+.card p{color:var(--muted);font-size:.98rem}
+.k{font-family:var(--mono)}
+header{position:sticky;top:0;z-index:50;background:rgba(10,22,40,.88);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;gap:26px;height:64px}
+.logo{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:-.01em;color:var(--paper);font-size:1.05rem}
+.nav nav{display:flex;gap:22px;margin-left:auto}
+.nav nav a{color:var(--muted);font-size:.92rem}
+.nav nav a:hover,.nav nav a[aria-current]{color:var(--paper)}
+.btn{display:inline-block;background:var(--teal);color:#06251E;font-weight:700;padding:13px 24px;border-radius:10px;font-size:.98rem;border:none;cursor:pointer;font-family:var(--sans)}
+.btn:hover{background:#12D8B4}
+.btn.ghost{background:transparent;color:var(--paper);border:1px solid var(--line)}
+.btn.small{padding:9px 16px;font-size:.88rem}
+.hero{padding:96px 0 56px;position:relative;overflow:hidden}
+.hero-glow{position:absolute;inset:auto -20% -60% -20%;height:400px;background:radial-gradient(ellipse at center,rgba(0,196,160,.14),transparent 65%);pointer-events:none}
+.pulse{display:block;width:100%;height:60px;margin:8px 0}
+.pulse path{stroke:var(--teal);stroke-width:2.5;fill:none;filter:drop-shadow(0 0 6px rgba(0,196,160,.75))}
+@media(prefers-reduced-motion:no-preference){
+.pulse path{stroke-dasharray:1200;stroke-dashoffset:1200;animation:beat 3.2s linear infinite}
+@keyframes beat{to{stroke-dashoffset:0}}}
+
+/* ── form ─────────────────────────────────────────────────────────────────
+   Two columns on desktop: the form on the left where the eye lands first, the
+   reason to fill it in on the right. A form with no argument beside it converts
+   worse than one with a short, concrete promise next to it. */
+.formwrap{display:grid;gap:34px;grid-template-columns:minmax(320px,1.1fr) minmax(280px,.9fr);align-items:start}
+@media(max-width:860px){.formwrap{grid-template-columns:1fr}}
+.field{margin-bottom:18px}
+.field label{display:block;font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin-bottom:7px}
+.field label .req{color:var(--teal)}
+.field input,.field select,.field textarea{
+  width:100%;background:var(--navy);border:1px solid var(--line);border-radius:10px;
+  padding:13px 14px;color:var(--paper);font-size:1rem;font-family:var(--sans);transition:border-color .15s}
+.field input:focus,.field select:focus,.field textarea:focus{outline:none;border-color:var(--teal)}
+.field input::placeholder,.field textarea::placeholder{color:var(--dim)}
+.field .hint{font-size:.82rem;color:var(--dim);margin-top:6px}
+.field.err input,.field.err select{border-color:var(--red)}
+.field .errmsg{display:none;font-size:.84rem;color:var(--red);margin-top:6px}
+.field.err .errmsg{display:block}
+.formnote{font-size:.86rem;color:var(--dim);margin-top:16px;max-width:46ch;line-height:1.55}
+.formstatus{display:none;margin-top:18px;padding:16px 18px;border-radius:10px;font-size:.96rem;line-height:1.5}
+.formstatus.ok{display:block;background:rgba(52,185,90,.1);border:1px solid var(--green);color:var(--paper)}
+.formstatus.bad{display:block;background:rgba(226,87,76,.1);border:1px solid var(--red);color:var(--paper)}
+/* Honeypot — a field a human never sees and a bot fills in. Cheaper and less
+   hostile than a captcha, and it stops the volume that actually arrives. */
+.hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+.expect{list-style:none}
+.expect li{padding:12px 0;border-bottom:1px solid var(--line);color:var(--muted);font-size:.97rem;display:flex;gap:12px}
+.expect li:last-child{border-bottom:none}
+.expect li .n{font-family:var(--mono);color:var(--teal);font-size:.85rem;flex-shrink:0;padding-top:3px}
+footer{padding:56px 0;color:var(--dim);font-size:.9rem}
+footer .cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:26px;margin-bottom:36px}
+footer a{color:var(--muted)}footer a:hover{color:var(--paper)}
+footer .legal{border-top:1px solid var(--line);padding-top:22px;font-family:var(--mono);font-size:11px;letter-spacing:.06em}
+:focus-visible{outline:2px solid var(--teal);outline-offset:3px}
+@media(max-width:760px){.nav nav{display:none}section{padding:64px 0}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+<a class="logo" href="index.html"><svg width="26" height="30" viewBox="0 0 26 30" aria-hidden="true"><path d="M13 1 25 5v10c0 8-5.4 12.4-12 14C6.4 27.4 1 23 1 15V5L13 1z" fill="#16233F" stroke="#00C4A0" stroke-width="1.4"/><rect x="6.5" y="16" width="3" height="6" fill="#34B95A"/><rect x="11.5" y="13" width="3" height="9" fill="#34B95A"/><rect x="16.5" y="10" width="3" height="12" fill="#34B95A"/><path d="M6 13.5 12 9l4 2.5 4.5-5" stroke="#00C4A0" stroke-width="1.6" fill="none" stroke-linecap="round"/></svg> SalesOgre<span style="color:var(--teal)">AI</span></a>
+<nav aria-label="Main"><a href="index.html">Home</a><a href="platform.html">Platform</a><a href="marketplace.html">Marketplace</a><a href="pricing.html">Pricing</a><a href="about.html">Why an Ogre</a><a href="demo.html" aria-current="page">Request a demo</a></nav>
+<a class="btn small" href="demo.html">Request a demo</a>
+</div></header>
+<main>
+
+<div class="hero"><div class="hero-glow"></div><div class="wrap">
+<span class="eyebrow">Request a demo</span>
+<h1>Twenty minutes.<br>No slides.</h1>
+<p class="lead">We'll run a real call through the platform and show you what it heard — who's championing, who's blocking, and what the rep should have said next. If it doesn't tell you something you didn't already know, we'll say so.</p>
+<svg class="pulse" viewBox="0 0 1200 60" preserveAspectRatio="none" aria-hidden="true"><path d="M0 30 H320 l14-14 16 28 14-30 16 34 12-18 h90 l12-12 14 24 12-26 16 30 10-16 H1200"/></svg>
+</div></div>
+
+<section id="form"><div class="wrap">
+<div class="formwrap">
+
+  <div class="card">
+    <!-- Formspree endpoint. Vanilla fetch rather than their SDK: no extra script to
+         load, no CDN dependency on a marketing page, and full control over what the
+         failure path says. Every error tells the visitor to email cj@ directly. -->
+    <form id="demoForm" action="https://formspree.io/f/myegnzge" method="POST" novalidate>
+
+      <div class="field" id="f-name">
+        <label for="name">Name <span class="req">*</span></label>
+        <input type="text" id="name" name="name" autocomplete="name" placeholder="Jane Okafor" required>
+        <div class="errmsg">Please add your name.</div>
+      </div>
+
+      <div class="field" id="f-title">
+        <label for="title">Title <span class="req">*</span></label>
+        <input type="text" id="title" name="title" autocomplete="organization-title" placeholder="VP Sales / CRO / RevOps" required>
+        <div class="errmsg">Please add your title.</div>
+      </div>
+
+      <div class="field" id="f-email">
+        <label for="email">Work email <span class="req">*</span></label>
+        <input type="email" id="email" name="email" autocomplete="email" placeholder="you@company.com" required>
+        <div class="hint">A work address, please — it tells us which team this is for.</div>
+        <div class="errmsg">Please use a valid work email address.</div>
+      </div>
+
+      <div class="field" id="f-phone">
+        <label for="phone">Phone <span class="req">*</span></label>
+        <input type="tel" id="phone" name="phone" autocomplete="tel" placeholder="(555) 123-4567" required>
+        <div class="errmsg">Please add a number we can reach you on.</div>
+      </div>
+
+      <div class="field">
+        <label for="team">Reps on the team</label>
+        <select id="team" name="team">
+          <option value="">Prefer not to say</option>
+          <option>1–10</option>
+          <option>11–50</option>
+          <option>51–150</option>
+          <option>151–500</option>
+          <option>500+</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label for="note">Anything we should know?</label>
+        <textarea id="note" name="note" rows="3" placeholder="Where deals are stalling, what you've already tried…"></textarea>
+      </div>
+
+      <!-- Honeypot. Hidden from people, irresistible to bots. -->
+      <div class="hp" aria-hidden="true"><label for="company_website">Leave this blank</label>
+      <input type="text" id="company_website" name="_gotcha" tabindex="-1" autocomplete="off"></div>
+
+      <input type="hidden" name="_subject" value="Demo request — SalesOgre AI">
+
+      <button class="btn" type="submit" id="submitBtn">Request a demo</button>
+
+      <div class="formstatus" id="status" role="status" aria-live="polite"></div>
+
+      <p class="formnote">We'll reply from a real person, usually the same day. No sequence, no drip,
+      no adding you to a list — which would be a strange way to start given what we sell.</p>
+    </form>
+  </div>
+
+  <div>
+    <h2 style="font-size:1.5rem">What the twenty minutes looks like</h2>
+    <ul class="expect">
+      <li><span class="n">01</span><span>You paste in notes from a real deal — or we use ours if you'd rather not share.</span></li>
+      <li><span class="n">02</span><span>The platform reads the room: who's championing, who's stalling, who quietly holds the decision — and shows the sentence that told it so.</span></li>
+      <li><span class="n">03</span><span>We run a live call and you watch the coaching land mid-conversation, in six words or fewer.</span></li>
+      <li><span class="n">04</span><span>You tell us where it's wrong. That part is genuinely useful to us.</span></li>
+    </ul>
+    <p class="lead" style="font-size:1rem;margin-top:24px">We're taking on ten founding companies. If that's interesting, say so in the note
+    and we'll cover it on the call.</p>
+  </div>
+
+</div>
+</div></section>
+
+</main>
+<footer><div class="wrap">
+<div class="cols">
+<div><a class="logo" href="index.html"><svg width="26" height="30" viewBox="0 0 26 30" aria-hidden="true"><path d="M13 1 25 5v10c0 8-5.4 12.4-12 14C6.4 27.4 1 23 1 15V5L13 1z" fill="#16233F" stroke="#00C4A0" stroke-width="1.4"/><rect x="6.5" y="16" width="3" height="6" fill="#34B95A"/><rect x="11.5" y="13" width="3" height="9" fill="#34B95A"/><rect x="16.5" y="10" width="3" height="12" fill="#34B95A"/><path d="M6 13.5 12 9l4 2.5 4.5-5" stroke="#00C4A0" stroke-width="1.6" fill="none" stroke-linecap="round"/></svg> SalesOgre<span style="color:var(--teal)">AI</span></a>
+<p style="margin-top:12px;max-width:32ch">The Revenue System of Action. Built by salespeople, for salespeople.</p></div>
+<div><b>Product</b><br><a href="platform.html">Platform</a><br><a href="marketplace.html">Marketplace</a><br><a href="pricing.html">Pricing</a><br><a href="demo.html">Request a demo</a></div>
+<div><b>Company</b><br><a href="about.html">Why an Ogre</a><br><a href="mailto:cj@salesogre.com">Contact sales</a></div>
+<div><b>The short version</b><br><span class="k" style="font-size:12px;color:var(--dim)">Systems of record remember.<br>SalesOgre acts.</span></div>
+</div>
+<div class="legal">© 2026 SalesOgre AI · salesogre.com · All product decisions made by people who still return prospect calls.</div>
+</div></footer>
+
+<script>
+(function () {
+  var form = document.getElementById("demoForm");
+  var btn = document.getElementById("submitBtn");
+  var status = document.getElementById("status");
+
+  function setErr(id, on) {
+    var el = document.getElementById(id);
+    if (el) el.classList.toggle("err", !!on);
+  }
+  function show(kind, text) {
+    status.className = "formstatus " + kind;
+    status.textContent = text;
+  }
+
+  /* Free-mail domains are allowed but flagged in the payload rather than blocked.
+     Rejecting a gmail address loses the founder who runs their company from one —
+     and that is exactly the buyer worth talking to. */
+  var FREE = ["gmail.com","yahoo.com","hotmail.com","outlook.com","aol.com","icloud.com","proton.me","protonmail.com"];
+
+  function validate() {
+    var ok = true;
+    var name = document.getElementById("name").value.trim();
+    var title = document.getElementById("title").value.trim();
+    var email = document.getElementById("email").value.trim();
+    var phone = document.getElementById("phone").value.trim();
+
+    setErr("f-name", !name);   if (!name) ok = false;
+    setErr("f-title", !title); if (!title) ok = false;
+
+    var emailOk = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email);
+    setErr("f-email", !emailOk); if (!emailOk) ok = false;
+
+    /* Seven digits is the floor for any real number worldwide. Anything stricter
+       rejects legitimate international formats, and a demo request from overseas
+       is not the thing to filter out. */
+    var digits = phone.replace(/\D/g, "");
+    var phoneOk = digits.length >= 7;
+    setErr("f-phone", !phoneOk); if (!phoneOk) ok = false;
+
+    return ok;
+  }
+
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+    status.className = "formstatus";
+
+    if (!validate()) {
+      show("bad", "Almost — a couple of fields need attention.");
+      var firstErr = form.querySelector(".field.err input");
+      if (firstErr) firstErr.focus();
+      return;
+    }
+
+    var data = new FormData(form);
+    var domain = (document.getElementById("email").value.split("@")[1] || "").toLowerCase();
+    data.append("email_type", FREE.indexOf(domain) > -1 ? "personal" : "work");
+    data.append("page", window.location.href);
+
+    btn.disabled = true;
+    btn.textContent = "Sending…";
+
+    fetch(form.action, { method: "POST", body: data, headers: { Accept: "application/json" } })
+      .then(function (r) {
+        if (r.ok) {
+          form.reset();
+          show("ok", "Got it — we'll come back to you today. Check your inbox, and your spam folder if it's quiet.");
+          btn.textContent = "Request sent";
+          return;
+        }
+        return r.json().then(function (j) {
+          var msg = (j.errors && j.errors.map(function (x) { return x.message; }).join(", ")) || "";
+          show("bad", "That didn't go through" + (msg ? " — " + msg : "") + ". Email cj@salesogre.com and we'll pick it up there.");
+          btn.disabled = false;
+          btn.textContent = "Request a demo";
+        });
+      })
+      .catch(function () {
+        /* A network failure must not cost the lead. Give them the address. */
+        show("bad", "Couldn't reach the server. Email cj@salesogre.com directly — that reaches us just as fast.");
+        btn.disabled = false;
+        btn.textContent = "Request a demo";
+      });
+  });
+
+  /* Clear the error state as soon as someone starts fixing it. Leaving a field red
+     while they type is a small cruelty that costs completions. */
+  ["name","title","email","phone"].forEach(function (id) {
+    var el = document.getElementById(id);
+    if (el) el.addEventListener("input", function () { setErr("f-" + id, false); });
+  });
+})();
+</script>
+</body>
+</html>
