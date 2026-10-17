@@ -1,0 +1,22 @@
+# salesogre.com robots.txt
+User-agent: *
+Allow: /
+
+# Search and AI-answer crawlers (explicitly welcome)
+User-agent: Googlebot
+User-agent: Bingbot
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: GPTBot
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+User-agent: ClaudeBot
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: Google-Extended
+User-agent: Applebot
+User-agent: Applebot-Extended
+User-agent: DuckAssistBot
+Allow: /
+
+Sitemap: https://salesogre.com/sitemap.xml

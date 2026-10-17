@@ -1,0 +1,14 @@
+# SalesOgre AI
+
+> SalesOgre AI is a revenue system built into sales execution for B2B sales teams. It reads every deal in real time, coaches the account executive during and after each conversation, scores the forecast against buyer-side evidence, and drafts the next best action. A person approves everything outbound. Built by salespeople who carried a quota.
+
+## Product
+- [Home](https://salesogre.com/): What SalesOgre AI does for account executives, sales leaders and their customers.
+- [The Platform](https://salesogre.com/platform.html): The capture, read, coach and act loop, integrations (Zoom, Salesforce, ServiceNow, Gmail, Outlook, calendar) and add-on modules.
+- [Marketplace](https://salesogre.com/marketplace.html): Plans and prices. Free ($0/mo, 5 prospects, 5 deals, 5 people), Pro ($49/mo, single rep, uncapped), Enterprise (custom pricing). Add-ons, Industry Clouds (require Enterprise) and AI Wallet top-ups.
+- [AI-R](https://salesogre.com/air/): The AI regulator that SalesOgre runs on. It meters model calls, routes work to the cheapest model that passes a quality bar, reuses cached answers and enforces spending ceilings.
+
+## Company
+- [Why an Ogre](https://salesogre.com/about.html): Who built SalesOgre and why.
+- [Request a demo](https://salesogre.com/demo.html): A 20-minute working session with real deal notes.
+- Contact: cj@salesogre.com
