@@ -4,8 +4,9 @@
 
 ## Product
 - [Home](https://salesogre.com/): What SalesOgre AI does for account executives, sales leaders and their customers.
-- [The Platform](https://salesogre.com/platform.html): The capture, read, coach and act loop, integrations (Zoom, Salesforce, ServiceNow, Gmail, Outlook, calendar) and add-on modules.
+- [The Platform](https://salesogre.com/platform.html): The capture, read, coach and act loop, integrations (Salesforce, HubSpot, Gmail, Outlook, calendar) and add-on modules.
 - [Marketplace](https://salesogre.com/marketplace.html): Plans and prices. Free ($0/mo, 5 prospects, 5 deals, 5 people), Pro ($49/mo, single rep, uncapped), Enterprise (custom pricing). Add-ons, Industry Clouds (require Enterprise) and AI Wallet top-ups.
+- [Integrations](https://salesogre.com/integrations.html): Salesforce, HubSpot, Gmail, Outlook and calendar, and what SalesOgre does with that data.
 - [AI-R](https://salesogre.com/air/): The AI regulator that SalesOgre runs on. It meters model calls, routes work to the cheapest model that passes a quality bar, reuses cached answers and enforces spending ceilings.
 
 ## Guides
@@ -14,6 +15,9 @@
 - [MEDDPICC deal scoring explained](https://salesogre.com/meddpicc-deal-scoring.html): Each MEDDPICC letter, what real buyer evidence looks like, warning signs, and how SalesOgre scores deals on events.
 - [How to identify a real sales champion](https://salesogre.com/how-to-identify-a-sales-champion.html): Four tests that separate a MEDDPICC champion from a friendly contact, warning signs of polite interest, and how SalesOgre classifies stakeholders.
 - [Sales forecast accuracy](https://salesogre.com/sales-forecast-accuracy.html): Why forecasts built on seller activity miss, which buyer evidence to count instead, and a five-question weekly check for commit deals.
+- [How to map a B2B buying committee](https://salesogre.com/buying-committee-mapping.html): The roles that decide, influence and review a purchase, how to map them in four steps, and the gaps that stall deals.
+- [Why deals end in no decision](https://salesogre.com/no-decision-deals.html): What a no-decision loss is, its common root causes, and the early buyer signals of a stalled deal.
+- [AI sales coaching that keeps the rep in charge](https://salesogre.com/ai-sales-coaching.html): What AI coaching should do before, during and after a meeting, with every outbound message approved by a person.
 
 ## Company
 - [Why an Ogre](https://salesogre.com/about.html): Who built SalesOgre and why.
