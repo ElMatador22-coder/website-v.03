@@ -159,6 +159,44 @@ header.og-head{position:sticky;top:0;z-index:60;display:flex;align-items:center;
 footer.og-foot{padding:36px clamp(20px,5vw,72px) 48px;border-top:1px solid rgba(255,255,255,.07);display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:space-between;font:400 12px/1.5 var(--mono);color:rgba(242,241,236,.45)}
 footer.og-foot span:last-child{display:flex;gap:18px;flex-wrap:wrap}
 footer.og-foot a{color:#f2f1ec}
+/* homepage type and spacing, applied to every subpage */
+.wrap{max-width:1384px;padding:0 clamp(20px,5vw,72px)}
+h1{font-size:clamp(40px,6.2vw,92px);line-height:1;letter-spacing:-.035em;text-wrap:balance}
+h2{font-size:clamp(30px,4.2vw,62px);line-height:1;letter-spacing:-.03em;margin-bottom:18px;text-wrap:balance}
+h1 .mute,h2 .mute{font-weight:400;color:rgba(242,241,236,.55)}
+h3{font-size:1.1rem;font-weight:600}
+.eyebrow{font:500 11px/1 var(--mono);letter-spacing:.22em;margin-bottom:18px}
+p.lead{font-size:clamp(16.5px,1.4vw,19px);line-height:1.6;color:rgba(242,241,236,.75);max-width:600px;text-wrap:pretty}
+.hero{padding:clamp(90px,11vw,160px) 0 clamp(50px,6vw,90px);border-bottom:none}
+.hero .lead{margin-top:24px}
+section{padding:clamp(70px,9vw,150px) 0;border-bottom:none;border-top:1px solid rgba(255,255,255,.07)}
+.prose p,.card p{font-size:16.5px;line-height:1.6;color:rgba(242,241,236,.75)}
+.prose p{max-width:620px}
+.card{border-radius:18px;background:rgba(255,255,255,.035);border:1px solid rgba(255,255,255,.07)}
+footer.og-foot{border-top:1px solid rgba(255,255,255,.07)}
+/* homepage building blocks: split rows, UI panels, dot lists */
+.split{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));gap:clamp(28px,4vw,72px);align-items:center}
+.split .txt{display:flex;flex-direction:column;gap:18px}
+.split .txt .eyebrow,.split .txt h2{margin:0}
+.split .txt p{margin:0}
+.dots{display:flex;flex-direction:column;gap:12px;list-style:none}
+.dots li{display:flex;gap:12px;align-items:flex-start;font-size:15px;line-height:1.5;color:rgba(242,241,236,.82)}
+.dots li::before{content:"";flex:0 0 auto;width:7px;height:7px;margin-top:7px;border-radius:2px;background:oklch(0.78 0.13 152)}
+.panel{border-radius:20px;background:#0b0f0e;border:1px solid rgba(255,255,255,.1);overflow:hidden}
+.panel .ph{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:14px 18px;border-bottom:1px solid rgba(255,255,255,.07);background:rgba(255,255,255,.02);font:500 11px/1 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:rgba(242,241,236,.5)}
+.panel .ph b{font-weight:500;letter-spacing:normal;text-transform:none;color:oklch(0.82 0.1 152)}
+.panel .pb{padding:clamp(16px,2vw,24px);display:flex;flex-direction:column;gap:12px}
+.prow{display:flex;align-items:flex-start;gap:14px;padding:14px 16px;border-radius:14px;background:rgba(255,255,255,.035);border:1px solid rgba(255,255,255,.06)}
+.prow .pt{flex:1 1 0%;min-width:0;display:flex;flex-direction:column;gap:4px}
+.prow .pt strong{font-weight:600;font-size:14px;color:#f2f1ec}
+.prow .pt span{font:400 12.5px/1.45 var(--mono);color:rgba(242,241,236,.55)}
+.pill{flex:0 0 auto;font:500 11px/1 var(--mono);padding:7px 10px;border-radius:8px;background:rgba(255,255,255,.06);color:oklch(0.82 0.1 152);text-transform:uppercase;letter-spacing:.06em}
+.pill.warn{color:oklch(0.82 0.12 75)}
+.pill.bad{color:oklch(0.72 0.15 25)}
+.panel .pn{font:400 12px/1.4 var(--mono);color:rgba(242,241,236,.5);padding:12px 14px;border-radius:12px;border:1px dashed rgba(255,255,255,.1)}
+.faq details{border-bottom:1px solid rgba(255,255,255,.07);padding:22px 0}
+.faq summary{font-weight:600;font-size:1.08rem}
+
 /* phones: keep the menu as a second row under logo and CTA, tighten hero spacing,
    and draw the pulse line static so it never shows half-drawn */
 @media(max-width:760px){
@@ -174,6 +212,7 @@ footer.og-foot a{color:#f2f1ec}
   section{padding:48px 0}
   #form{padding-top:24px}
   #form .btn{width:100%;text-align:center}
+  .split .txt{order:-1}
 }
 
 /* guide pages */
