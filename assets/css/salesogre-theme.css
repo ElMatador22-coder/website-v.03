@@ -160,3 +160,17 @@ footer.og-foot{padding:36px clamp(20px,5vw,72px) 48px;border-top:1px solid rgba(
 footer.og-foot span:last-child{display:flex;gap:18px;flex-wrap:wrap}
 footer.og-foot a{color:#f2f1ec}
 @media(max-width:760px){.og-nav{display:none}}
+
+/* guide pages */
+.prose p{color:var(--muted);max-width:68ch;margin-top:14px}
+.prose p a,.faq p a{color:oklch(0.82 0.1 152);text-decoration:underline;text-underline-offset:3px}
+.mletter .mhead{display:flex;align-items:center;gap:14px;margin-bottom:6px}
+.mletter .mhead h3{margin:0}
+.mletter .mk{width:38px;height:38px;border-radius:10px;display:grid;place-items:center;font:600 18px/1 var(--mono);color:#0a0c0b;background:oklch(0.78 0.13 152);flex:none}
+.mletter p{margin-top:10px;font-size:.96rem}
+.mletter .ev b{color:oklch(0.82 0.1 152);font-weight:600}
+.mletter .ws b{color:oklch(0.80 0.13 75);font-weight:600}
+.faq summary{list-style:none;color:var(--paper)}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:'+';float:right;font-family:var(--mono);color:oklch(0.78 0.13 152)}
+.faq details[open] summary::after{content:'\2212'}
