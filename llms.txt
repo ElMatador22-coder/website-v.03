@@ -12,6 +12,8 @@
 - [FAQ](https://salesogre.com/faq.html): Pricing, who SalesOgre is for, human approval on every send, how champions and blockers are read, demos and the founding cohort.
 - [What is a revenue system of action?](https://salesogre.com/revenue-system-of-action.html): How a system of action differs from a system of record or insight, and how SalesOgre captures, reads, coaches and acts.
 - [MEDDPICC deal scoring explained](https://salesogre.com/meddpicc-deal-scoring.html): Each MEDDPICC letter, what real buyer evidence looks like, warning signs, and how SalesOgre scores deals on events.
+- [How to identify a real sales champion](https://salesogre.com/how-to-identify-a-sales-champion.html): Four tests that separate a MEDDPICC champion from a friendly contact, warning signs of polite interest, and how SalesOgre classifies stakeholders.
+- [Sales forecast accuracy](https://salesogre.com/sales-forecast-accuracy.html): Why forecasts built on seller activity miss, which buyer evidence to count instead, and a five-question weekly check for commit deals.
 
 ## Company
 - [Why an Ogre](https://salesogre.com/about.html): Who built SalesOgre and why.
