@@ -279,6 +279,8 @@ a:hover{color:oklch(0.80 0.12 152)}
 .so-stat{padding:20px;border-radius:16px;background:rgba(255,255,255,.035);border:1px solid rgba(255,255,255,.08);display:flex;flex-direction:column;gap:6px}
 .so-art{border-radius:24px;overflow:hidden;border:1px solid rgba(255,255,255,.1);box-shadow:0 60px 120px -40px rgba(0,0,0,.9),0 0 80px rgba(64,224,190,.08);position:relative}
 .so-art img,.so-art video{display:block;width:100%;height:auto}
+.so-sound{position:absolute;right:12px;bottom:12px;z-index:2;padding:9px 13px;border-radius:999px;border:1px solid rgba(255,255,255,.22);background:rgba(8,10,9,.62);color:#f2f1ec;font:600 11px/1 'IBM Plex Mono',monospace;letter-spacing:.08em;text-transform:uppercase;cursor:pointer;backdrop-filter:blur(6px)}
+.so-sound:hover{border-color:rgba(140,230,175,.6)}
 .so-art .so-glint{position:absolute;inset:0;pointer-events:none;background:linear-gradient(105deg,rgba(255,255,255,0) 40%,rgba(160,255,230,.10) 50%,rgba(255,255,255,0) 60%);animation:ogreSweep 6s ease-in-out infinite}
 @media(max-width:860px){.so-hero-art{width:100%;opacity:.55}.so-hero-art img{-webkit-mask-image:none;mask-image:none;object-position:62% 12%}.so-hero-shade{background:linear-gradient(to bottom,rgba(8,10,9,.5) 0%,rgba(8,10,9,.15) 30%,rgba(8,10,9,.85) 70%,#080a09 100%)}}
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}[data-fade]{opacity:1!important;transform:none!important}}
@@ -441,6 +443,23 @@ SalesOgre<span style="opacity:.55;font-weight:500">&nbsp;AI</span>
               <div style="margin-top:auto;padding:14px;border-radius:12px;background:rgba(120,220,160,.08);border:1px solid rgba(140,230,175,.2);font-size:13px;line-height:1.45;color:rgba(242,241,236,.85)">Champion confirmed. Exec business case drafted and ready for your approval.</div>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="orchestra" data-screen-label="Orchestra" style="scroll-margin-top:88px;padding:clamp(70px,9vw,150px) clamp(20px,5vw,72px);border-top:1px solid rgba(255,255,255,.07)">
+    <div style="max-width:1240px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,340px),1fr));gap:clamp(32px,5vw,80px);align-items:center">
+      <div data-fade="" style="opacity:0;transform:translateY(36px);transition:opacity 1s ease,transform 1s ease;display:flex;flex-direction:column;gap:12px;width:100%">
+        <div class="so-art"><video data-scroll-video="" muted="" loop="" playsinline="" preload="metadata" poster="/assets/img/charlie-orchestra-poster-b3b2bce240.webp" aria-label="Charlie conducting a team of small robot AI agents that send the right information to a seller during a call"><source src="/assets/media/charlie-orchestra-e7dad9dec3.mp4" type="video/mp4"></video><button type="button" class="so-sound" data-sound="" aria-pressed="false">Sound on</button></div>
+        <span style="font:400 12px/1.5 'IBM Plex Mono',monospace;color:rgba(242,241,236,.45)">A tough question, answered on the spot.</span>
+      </div>
+      <div data-fade="" style="display:flex;flex-direction:column;gap:18px;opacity:0;transform:translateY(28px);transition:opacity .9s ease,transform .9s ease">
+        <span style="font:500 11px/1 'IBM Plex Mono',monospace;letter-spacing:.22em;text-transform:uppercase;color:oklch(0.78 0.13 152)">One coach, a team of specialists</span>
+        <h2 style="margin:0;font-weight:700;font-size:clamp(30px,4.2vw,62px);line-height:1;letter-spacing:-0.03em;text-wrap:balance">Charlie runs the orchestra. <span style="font-weight:400;color:rgba(242,241,236,.55)">Your seller plays the solo.</span></h2>
+        <p style="margin:0;font-size:16.5px;line-height:1.6;color:rgba(242,241,236,.75);text-wrap:pretty">Behind every seat is a team of AI agents, each great at one job. Charlie directs them, so when a buyer pushes back, the right fact, story or next step is already in front of your seller.</p>
+        <div style="display:flex;flex-direction:column;gap:12px">
+<div style="display:flex;gap:12px;align-items:flex-start"><span style="flex:none;width:7px;height:7px;margin-top:7px;border-radius:2px;background:oklch(0.78 0.13 152);display:block"></span><span style="font-size:15px;line-height:1.5;color:rgba(242,241,236,.82)">Research, scheduling, follow-up, forecasting and deal strategy each have a specialist on the job.</span></div><div style="display:flex;gap:12px;align-items:flex-start"><span style="flex:none;width:7px;height:7px;margin-top:7px;border-radius:2px;background:oklch(0.78 0.13 152);display:block"></span><span style="font-size:15px;line-height:1.5;color:rgba(242,241,236,.82)">The answer reaches your seller during the conversation, while it still matters.</span></div><div style="display:flex;gap:12px;align-items:flex-start"><span style="flex:none;width:7px;height:7px;margin-top:7px;border-radius:2px;background:oklch(0.78 0.13 152);display:block"></span><span style="font-size:15px;line-height:1.5;color:rgba(242,241,236,.82)">Your seller stays the face of the deal. Nothing goes to a buyer without their approval.</span></div>
         </div>
       </div>
     </div>
@@ -975,6 +994,26 @@ class Component extends DCLogic {
     };
   }
 }
+</script>
+<script>
+(function () {
+  // Scroll videos stay muted until the visitor asks for sound.
+  function pressed(v) { var b = v.parentElement && v.parentElement.querySelector("[data-sound]"); return !!(b && b.getAttribute("aria-pressed") === "true"); }
+  function keepMuted() { document.querySelectorAll("[data-scroll-video]").forEach(function (v) { if (!pressed(v) && !v.muted) v.muted = true; }); }
+  keepMuted(); setInterval(keepMuted, 1000);
+  document.addEventListener("click", function (e) {
+    var path = e.composedPath ? e.composedPath() : [e.target], b = null;
+    for (var i = 0; i < path.length; i++) { if (path[i].hasAttribute && path[i].hasAttribute("data-sound")) { b = path[i]; break; } }
+    if (!b) return;
+    var v = b.parentElement.querySelector("video");
+    if (!v) return;
+    var on = b.getAttribute("aria-pressed") !== "true";
+    b.setAttribute("aria-pressed", on ? "true" : "false");
+    b.textContent = on ? "Sound off" : "Sound on";
+    v.muted = !on;
+    if (on) { v.volume = 0.85; v.currentTime = 0; var p = v.play(); if (p && p.catch) p.catch(function () {}); }
+  });
+})();
 </script>
 <div id="soro-blog"></div>
 <script src="https://app.trysoro.com/api/embed/8272d352-94bb-45bc-a4d1-4e80e1573b7d?theme=dark" defer></script>
