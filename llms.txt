@@ -1,6 +1,6 @@
 # SalesOgre AI
 
-> SalesOgre AI is a revenue system built into sales execution for B2B sales teams. It reads every deal in real time, coaches the account executive during and after each conversation, scores the forecast against buyer-side evidence, and drafts the next best action. A person approves everything outbound. Built by salespeople who carried a quota.
+> SalesOgre AI is the next evolution of selling: an AI sales coach for B2B sales teams that makes every seller better, not just faster. It is a revenue system built into sales execution. It reads every deal in real time, coaches the account executive during and after each conversation, scores the forecast against buyer-side evidence, and drafts the next best action. A person approves everything outbound. Built by salespeople who carried a quota.
 
 ## Product
 - [Home](https://salesogre.com/): What SalesOgre AI does for account executives, sales leaders and their customers.
