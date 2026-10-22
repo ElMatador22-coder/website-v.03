@@ -5,7 +5,7 @@
 ## Product
 - [Home](https://salesogre.com/): What SalesOgre AI does for account executives, sales leaders and their customers.
 - [The Platform](https://salesogre.com/platform.html): The capture, read, coach and act loop, and integrations (Salesforce, HubSpot, Gmail, Outlook, calendar).
-- [Pricing](https://salesogre.com/pricing.html): Free ($0, 5 prospects, 5 deals, 5 people, no AI work), Individual License ($59/month, 12-month term), Individual Annual Commit ($1,000/year upfront), Enterprise ($1,000 per user per year, 5-user minimum, volume pricing from 25 users, custom pricing on request). Paid through Stripe; every license payment funds the AI Wallet.
+- [Pricing](https://salesogre.com/pricing.html): Free ($0, 5 prospects, 5 deals, 5 people, no AI work), Individual License ($59/month, 12-month term), Individual Annual Commit ($1,000/year upfront), Enterprise (custom pricing for teams of 5 or more; contact cj@salesogre.com). Paid through Stripe; every license payment funds the AI Wallet.
 - [Integrations](https://salesogre.com/integrations.html): Salesforce, HubSpot, Gmail, Outlook and calendar, and what SalesOgre does with that data.
 - [AI-R](https://salesogre.com/air/): The AI regulator that SalesOgre runs on. It meters model calls, routes work to the cheapest model that passes a quality bar, reuses cached answers and enforces spending ceilings.
 
