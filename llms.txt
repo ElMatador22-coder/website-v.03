@@ -23,6 +23,6 @@
 - [SalesOgre vs Gong](https://salesogre.com/salesogre-vs-gong.html): What each tool is built for, published versus quote-based pricing, integrations, and when each one is the better fit.
 
 ## Company
-- [Why an Ogre](https://salesogre.com/about.html): Who built SalesOgre and why.
+- [Why an Ogre](https://salesogre.com/about.html): Who built SalesOgre and why. Founded by Chris Moutafov, an enterprise seller with multiple President's Club finishes (ADP, Pegasystems, Splunk, Reltio). Based in Dallas, Texas.
 - [Request a demo](https://salesogre.com/demo.html): A 20-minute working session with real deal notes.
 - Contact: cj@salesogre.com
