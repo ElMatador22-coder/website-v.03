@@ -25,6 +25,24 @@
 - [SalesOgre AI vs Gong](https://salesogre.com/salesogre-vs-gong.html): What each tool is built for, published versus quote-based pricing, integrations, and when each one is the better fit.
 - [SalesOgre AI vs Salesloft and Clari](https://salesogre.com/salesogre-vs-salesloft.html): Clari Forecast inside Salesloft's lineup versus SalesOgre AI's deal coaching, pricing, and when each fits.
 
+## Blog
+- [SalesOgre AI blog](https://salesogre.com/blog/): Articles on sales execution, AI for B2B sales teams, CRM alternatives and enterprise buying cycles.
+- [100% Accurate Deal Record, Not What Reps Think Happened](https://salesogre.com/blog/100-accurate-deal-record-not-what-reps-think-happened.html)
+- [AI Is Not Your Sales Strategy. Execution Is](https://salesogre.com/blog/ai-sales-strategy-execution.html)
+- [SalesOgre AI: The HubSpot CRM Alternative Built for the AI Era](https://salesogre.com/blog/hubspot-alternative-built-for-ai-era.html)
+- [Human Approved AI Sales Outreach That Protects Deals](https://salesogre.com/blog/human-approved-ai-sales-outreach.html)
+- [SalesOgre AI: Hyper-Personalized - at Scale, Not Spam](https://salesogre.com/blog/hyper-personalized-outreach-at-scale.html)
+- [Monday vs. SalesOgre AI for Complex Sales](https://salesogre.com/blog/monday-vs-salesogre-ai.html)
+- [One Brain. One Set of Guardrails. Every Stage of the Sale.](https://salesogre.com/blog/one-brain-one-set-of-guardrails-every-stage-of-the-sale.html)
+- [The Salesforce Alternative Built for the AI Era](https://salesogre.com/blog/salesforce-alternative-built-for-ai-era.html)
+- [A Salesforce Alternative That Helps Reps Execute](https://salesogre.com/blog/salesforce-alternative-that-helps-reps-execute.html)
+- [Salesforce Is Not Your Sales Execution Plan](https://salesogre.com/blog/salesforce-sales-execution-plan.html)
+- [8 Salesloft Competitors That Fix the Real Problem](https://salesogre.com/blog/salesloft-competitors.html)
+- [SalesOgre AI vs Clari: Insight or Execution?](https://salesogre.com/blog/salesogre-ai-vs-clari.html)
+- [When to Switch From Salesforce and What Comes Next](https://salesogre.com/blog/switch-from-salesforce.html)
+- [The Best AI for Sales Isn&#x27;t Another Copilot](https://salesogre.com/blog/the-best-ai-for-sales.html)
+- [What a Unified Sales Engagement Platform Fixes](https://salesogre.com/blog/unified-sales-engagement-platform.html)
+
 ## Company
 - [Why an Ogre](https://salesogre.com/about.html): Who built SalesOgre and why. Founded by CJ Moutafov, an enterprise seller with multiple President's Club finishes (ADP, Pegasystems, Splunk, Reltio). Based in Dallas, Texas.
 - [Request a demo](https://salesogre.com/demo.html): A 20-minute working session with real deal notes.
