@@ -19,6 +19,9 @@
 - [Why deals end in no decision](https://salesogre.com/no-decision-deals.html): What a no-decision loss is, its common root causes, and the early buyer signals of a stalled deal.
 - [AI sales coaching that keeps the rep in charge](https://salesogre.com/ai-sales-coaching.html): What AI coaching should do before, during and after a meeting, with every outbound message approved by a person.
 
+## Comparisons
+- [SalesOgre vs Gong](https://salesogre.com/salesogre-vs-gong.html): What each tool is built for, published versus quote-based pricing, integrations, and when each one is the better fit.
+
 ## Company
 - [Why an Ogre](https://salesogre.com/about.html): Who built SalesOgre and why.
 - [Request a demo](https://salesogre.com/demo.html): A 20-minute working session with real deal notes.
