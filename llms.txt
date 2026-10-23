@@ -18,9 +18,12 @@
 - [How to map a B2B buying committee](https://salesogre.com/buying-committee-mapping.html): The roles that decide, influence and review a purchase, how to map them in four steps, and the gaps that stall deals.
 - [Why deals end in no decision](https://salesogre.com/no-decision-deals.html): What a no-decision loss is, its common root causes, and the early buyer signals of a stalled deal.
 - [AI sales coaching that keeps the rep in charge](https://salesogre.com/ai-sales-coaching.html): What AI coaching should do before, during and after a meeting, with every outbound message approved by a person.
+- [MEDDPICC software](https://salesogre.com/meddpicc-software.html): What MEDDPICC software should do, five questions to ask any vendor, and how SalesOgre AI scores MEDDPICC from buyer evidence.
+- [Deal intelligence software](https://salesogre.com/deal-intelligence-software.html): What deal intelligence is, which buyer signals matter, what to ask vendors, and how SalesOgre AI reads every deal.
 
 ## Comparisons
-- [SalesOgre vs Gong](https://salesogre.com/salesogre-vs-gong.html): What each tool is built for, published versus quote-based pricing, integrations, and when each one is the better fit.
+- [SalesOgre AI vs Gong](https://salesogre.com/salesogre-vs-gong.html): What each tool is built for, published versus quote-based pricing, integrations, and when each one is the better fit.
+- [SalesOgre AI vs Salesloft and Clari](https://salesogre.com/salesogre-vs-salesloft.html): Clari Forecast inside Salesloft's lineup versus SalesOgre AI's deal coaching, pricing, and when each fits.
 
 ## Company
 - [Why an Ogre](https://salesogre.com/about.html): Who built SalesOgre and why. Founded by CJ Moutafov, an enterprise seller with multiple President's Club finishes (ADP, Pegasystems, Splunk, Reltio). Based in Dallas, Texas.
